@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    color:white;
+}
+
+body{
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://www.truck1.ec/img/Maquinaria_de_construccion_Cargadora_de_ruedas_Caterpillar_966_K-xxl-1194/1194_9189449724081.jpg);
+}
+
+form{
+    background-color: rgba(27, 27, 50, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 400px;
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+select{
+    color:black;
+}
+
+select option{
+    color:black;
+}
+
+button{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: rgb(188, 158, 22);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.check_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radio_botton{
+    display: flex;
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.comments{
+    margin-top: 20px;
+}
+
+.width{
+    width: 350px;
+}

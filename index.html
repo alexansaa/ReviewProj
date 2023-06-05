@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <h1 id="title">Build a Survey Form</h1>
+
+    <p id="description">This is a short explanation</p>
+    
+    <form action="" id="survey-form">
+      <div>
+        <label id="name-label">
+          Name:
+        </label>
+        <input id="name" type="text" name="name" required placeholder="Joaquin Samaniego">
+        <label id="email-label">
+          Email:
+        </label>
+        <input id="email" type="email" name="email" required placeholder="axxxx@hotmail.com">
+        <label id="number-label">
+          Number:
+        </label>
+        <input id="number" type="number" min="0" max="100" placeholder="{x|x >= 0 v x =100}">
+      </div>
+      
+      <label class="selectionFit">
+        Select The best fit for you!
+      </label>
+      
+      <select name="" id="dropdown">
+        <option>Option one</option>
+        <option>Option two</option>
+      </select>
+      <div class="radio_botton space">
+        <div class="radio_botton">
+          <label id="radio1-label" for="option1">
+            Option 1
+          </label>
+          <input type="radio" name="radio" value="one" id="option1">
+        </div>
+        <div class="radio_botton">
+          <label id="radio2-label" for="option2">
+            Option 2
+          </label>
+          <input type="radio" name="radio" value="two" id="option2">
+        </div>
+      </div>
+      
+      <div class="check_box space">
+        <div class="check_box">
+          <label id="check1-label width" for="brownPackage">
+            Brown Package
+          </label>
+          <input type="checkbox" name="check" value="one"  id="brownPackage">
+        </div>
+        <div class="check_box">
+          <label id="check2-label width" for="greenPackage">
+            Green Package
+          </label>
+          <input type="checkbox" name="check" value="two" id="greenPackage">
+        </div>
+        <div class="check_box">
+          <label id="check3-label width" for="redPackage">
+            Red Package
+          </label>
+          <input type="checkbox" name="check" value="three" id="redPackage">
+        </div>
+      </div>
+      
+      <label class="comments">
+        Comments for delivery
+      </label>
+      <textarea></textarea>
+      
+      <button id="submit">Submit</button>
+    </form>
+    
+    <p>Hello World, we are software developers!</p>
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>
